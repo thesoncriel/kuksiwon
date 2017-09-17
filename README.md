@@ -17,7 +17,12 @@
 C# 소스는 공개하지 않음
 
 ## Licence
-MIT
+- 사용된 기법 및 기술: MIT
+- 디자인 및 문맥, 이미지 등: 국시원 소유
+
+### Caution
+- 내용을 참고만 하되 복붙하심 안됩니다..  
+- 2017년 현재 국시원 영문 사이트로 당당하게(?) 운영중입니다.
 
 ## Screen Shots
 ![](https://github.com/thesoncriel/kuksiwon/blob/master/screenshots/001.png)
