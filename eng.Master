@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="eng.master.cs" Inherits="kuksiwon_eng.eng" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>National Health Personnel Licensing Examination Board</title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/artn.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="body_bg">
+        
+        <div class="wrapper">
+            
+            <div class="top">
+                <h2 class="logo"><a href="index.aspx">National Health Personnel Licensing Examination Board</a></h2>
+                <ul class="nav">
+                    <li><a href="index.aspx">Home</a></li>
+                    <li><a href="http://www.kuksiwon.or.kr/">Korean</a></li>
+                </ul>
+                
+            </div>
+            <div class="article">
+                <div class="left">
+                    <div class="nav">
+                        <ul>
+                            <li <asp:Literal runat="server" ID="litClass_sub_1"></asp:Literal>><a href="#" accesskey="1">Introduction</a>
+                                <ul>
+                                    <li><a href="context.aspx?page=sub_1_1" <asp:Literal runat="server" ID="litClass_sub_1_1"></asp:Literal>>Greetings from the President</a></li>
+                                    <li><a href="context.aspx?page=sub_1_2" <asp:Literal runat="server" ID="litClass_sub_1_2"></asp:Literal>>Objectives</a></li>
+                                    <li><a href="context.aspx?page=sub_1_3" <asp:Literal runat="server" ID="litClass_sub_1_3"></asp:Literal>>Vision &amp; Mission</a></li>
+                                    <li><a href="context.aspx?page=sub_1_4" <asp:Literal runat="server" ID="litClass_sub_1_4"></asp:Literal>>CI</a></li>
+                                    <li><a href="context.aspx?page=sub_1_5" <asp:Literal runat="server" ID="litClass_sub_1_5"></asp:Literal>>Organization</a></li>
+                                    <li><a href="context.aspx?page=sub_1_6" <asp:Literal runat="server" ID="litClass_sub_1_6"></asp:Literal>>History</a></li>                                        
+                                </ul>
+                            </li>
+                            <li <asp:Literal runat="server" ID="litClass_sub_2"></asp:Literal>><a href="#" accesskey="2">Guide to Examinations</a>
+                                <ul>
+                                        <li><a href="context.aspx?page=sub_2_1&#38;sub=1" <asp:Literal runat="server" ID="litClass_sub_2_1"></asp:Literal>>Occupational categories</a></li>
+                                        <li><a href="context.aspx?page=sub_2_50" <asp:Literal runat="server" ID="litClass_sub_2_50"></asp:Literal>>Guide to Health Personnel Licensing for International graduates</a></li>
+                                </ul>
+                            </li>                                    
+                            <li <asp:Literal runat="server" ID="litClass_sub_3"></asp:Literal>><a href="#" accesskey="3">Clinical skill test</a>
+                                <ul>
+                                        <li><a href="context.aspx?page=sub_3_1" <asp:Literal runat="server" ID="litClass_sub_3_1"></asp:Literal>>Clinical skill test</a></li>
+                                        <li><a href="context.aspx?page=sub_3_2" <asp:Literal runat="server" ID="litClass_sub_3_2"></asp:Literal>>Determining successful candidate</a></li>
+                                        <li><a href="context.aspx?page=sub_3_3" <asp:Literal runat="server" ID="litClass_sub_3_3"></asp:Literal>>Standardized Patient Management</a></li>
+                                </ul>
+                            </li>
+                            <li <asp:Literal runat="server" ID="litClass_sub_4"></asp:Literal>><a href="#" accesskey="4">Test Construction</a>
+                                <ul>
+                                        <li><a href="context.aspx?page=sub_4_1" <asp:Literal runat="server" ID="litClass_sub_4_1"></asp:Literal>>Managing test construction</a></li>
+                                        <li><a href="context.aspx?page=sub_4_2" <asp:Literal runat="server" ID="litClass_sub_4_2"></asp:Literal>>Terms related to test construction</a></li>
+                                </ul>
+                            </li>
+                            <li <asp:Literal runat="server" ID="litClass_sub_5"></asp:Literal>><a href="#" accesskey="5">Research</a>
+                                <ul>
+                                        <li><a href="context.aspx?page=sub_5_1" <asp:Literal runat="server" ID="litClass_sub_5_1"></asp:Literal>>Research and Development Projects</a></li>
+                                        <li><a href="context.aspx?page=sub_5_2" <asp:Literal runat="server" ID="litClass_sub_5_2"></asp:Literal>>Academic journal: JEEHP</a></li>
+                                        <li><a href="context.aspx?page=sub_5_3" <asp:Literal runat="server" ID="litClass_sub_5_3"></asp:Literal>>English brochure</a></li>
+                                        <li><a href="context.aspx?page=sub_5_4" <asp:Literal runat="server" ID="litClass_sub_5_4"></asp:Literal>>IAMRA</a></li>
+                                </ul>
+                            </li>
+                            <li <asp:Literal runat="server" ID="litClass_sub_6"></asp:Literal>><a href="#" accesskey="6">NHPLEB Gallery</a>
+                                <ul>
+                                        <li><a href="context/sub_6_2.html" id="sub_6_2-video">NHPLEB Video</a></li>
+                                        <li><a href="forum.aspx?page=sub_6_1&#38;forum=image" <asp:Literal runat="server" ID="litClass_sub_6_1"></asp:Literal>>Photo Album</a></li>
+                                </ul>
+                            </li>
+                            <li <asp:Literal runat="server" ID="litClass_sub_7"></asp:Literal>><a href="#" accesskey="7">Related web sites</a>
+                                <ul>
+                                        <li><a href="context.aspx?page=sub_7_1" <asp:Literal runat="server" ID="litClass_sub_7_1"></asp:Literal>>Related institutes</a></li>
+                                        <li><a href="context.aspx?page=sub_7_2" <asp:Literal runat="server" ID="litClass_sub_7_2"></asp:Literal>>Associations</a></li>
+                                </ul>
+                            </li>
+                            <li class="bt <asp:Literal runat="server" ID="litClassValue_sub_8"></asp:Literal>"><a href="context.aspx?page=sub_8_1" accesskey="8">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="address">
+                        <h2>National Health Personnel Licensing Examination Board</h2>
+                        <address>
+                            <span class="add">45 Jayang-ro, Gwangjin-gu, Seoul Republic of Korea, 143-873</span>
+                            <span class="tel">Tel : +82-2-1544-4244</span>
+                            <span class="fax">Fax : +82-2-02-154-4244</span>
+                            <span class="email">E-mail : master@kuksiwon.or.kr</span>
+                        </address>
+                    </div>
+                </div>
+                
+                <div class="right">
+                    <asp:ContentPlaceHolder ID="cphSubTop" runat="server">
+    
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="cphContext" runat="server">
+    
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <h6 class="logo"><a href="#">NHPLEB</a></h6>
+            <span class="copyright">Copyright ⓒ 2012 National Health Personnel Licensing Examination Board. All Rights Reserved.</span>
+        </div>
+        
+    </div>
+</body>
+</html>

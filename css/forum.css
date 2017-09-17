@@ -1,0 +1,317 @@
+/*table.image_list*/
+
+.forum table.image_list,
+.forum table.contents,
+.forum table.forum_write{
+    margin-left:10px; 
+    width:578px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-top:2px solid #ea6049;
+    border-bottom:2px solid #ea6049;
+    color:#464646;
+    border-collapse: collapse;
+}
+
+.forum table.image_list thead tr,
+.forum table.contents thead tr,
+.forum table.forum_write thead tr{  
+    border-bottom:1px solid red;
+}
+
+.forum table.image_list thead tr th,
+.forum table.contents thead tr th,
+.forum table.forum_write thead tr th{
+    text-align: center;
+    color:#b69979;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom:1px solid #b69979;
+}
+
+.forum table.image_list tbody tr td,
+.forum table.contents tbody tr td,
+.forum table.forum_write tbody tr td{
+    padding-top:10px;
+    padding-bottom:10px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.forum table.image_list tbody tr td img,
+.forum table.contents tbody tr td img{ 
+    float:left;
+    margin-right:10px;
+}
+.forum table.image_list tbody tr td img {
+    width: 78px;
+    height: 45px;
+}
+
+.forum table.image_list tbody tr td a,
+.forum table.contents tbody tr td a{
+    float:left;
+    text-align:left;
+    text-decoration: none;
+    color:#464646;
+}
+
+.forum table.image_list thead tr .title,
+.forum table.contents thead tr .title{ 
+    width:390px;
+     
+}
+
+
+.right .forum table.video_list + div{
+    /*margin-left:130px;  */
+    overflow:hidden;
+    width:343px; 
+}
+
+.right .forum table.video_list + div a{
+    border:1px solid #f0f0f0;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    width:31px;
+    height:26px;
+    text-decoration: none;
+    color:#737373;
+    margin-top:5px;
+    margin-left:4px;
+}
+
+.right .forum table.video_list + div div{
+    float:left;
+    width:185px;
+    margin-left:4px;
+    margin-right:4px;
+}
+
+.right .forum table.video_list + div div a{
+    margin-left:4px;
+}
+
+.right .forum table.video_list + div div a.selected{
+    background-color:#ea6049;
+    color:white;
+}
+
+/*table.image_list*/
+
+
+
+/*table.video_contents*/
+.forum table.contents thead tr th,
+.forum table.forum_write thead tr th{
+    background-color: #e1cbb5;
+    color:#464646;
+}
+
+.forum table.contents tbody tr td,
+.forum table.forum_write tbody tr td{
+    text-align: justify;
+}
+
+.forum .view_ctrl{
+    width:607px;
+}
+
+.forum .view_ctrl a{
+    width:60px;
+    height:24px;
+}
+
+.forum .admin{
+    /*display:none;*/
+    float:right;
+}
+
+.forum .forum_write tr td label{
+    width:60px;
+    margin-top:5px;
+    float:left;
+}
+    
+.forum .forum_write tr{
+    /*border-bottom:1px solid #ea6049;*/
+}
+
+.forum .forum_write #title{
+    /*margin-left:10px;*/
+}
+
+.forum .forum_write #date{
+    /*margin-left:27px;*/
+}
+
+.forum .forum_write #images{
+    /*margin-left:29px;*/
+}
+
+.forum .forum_write textarea {
+    width:600px;
+    height:300px;
+}
+
+.view_ctrl .admin_edit{
+    float:right;
+    margin-top:0px;
+}
+
+.forum .admin_edit a{    
+            border:1px solid #f0f0f0;
+            width:50px;
+            height:23px;
+            text-align:left;
+            padding-left:10px; 
+            font-size:12px;            
+            font-family:"맑은 고딕", "나눔 고딕", "돋움체", "돋움", dotum, "Arial Black", sans-serif;
+            color:#737373;
+            background: #fff;
+            cursor:pointer;cursor:hand;
+}
+
+.forum .admin_edit #button_Submit{
+    direction:ltr;
+            border:1px solid #f0f0f0;
+            border-width: 1px;
+            margin-left:10px;
+            margin-top:5px;
+            width:60px;
+            height:30px;
+            text-align:left;    
+            padding-left:10px; 
+            font-size:12px;            
+            font-family:"맑은 고딕", "나눔 고딕", "돋움체", "돋움", dotum, "Arial Black", sans-serif;
+            color:#737373;
+            background: #fff;
+            cursor:pointer;cursor:hand;
+}
+.forum .admin_edit input:active#button_Submit,
+.forum .admin_edit input:focus#button_Submit {
+    background-color: skyblue;
+    
+}
+
+.right .forum .page-ctrl{
+    clear:both;
+    
+}
+
+.right .forum .page-ctrl .selected{
+    
+    
+}
+
+.right .forum .page-ctrl .last-page{
+    
+}
+
+.right .forum table.image_list + div.admin-ctrl{
+    float:right;
+    width:80px;
+}
+
+.right .forum .admin-ctrl a{
+    width:50px;
+}
+
+.right .forum table.image_list + div.admin-ctrl{
+    margin-top:0px;
+    margin-right:0px;
+    width:86px;
+    float:right;
+}
+
+.right .forum table.image_list + div.admin-ctrl a{
+    width:60px;
+    
+}
+ 
+.right .forum table.image_list + div .next-page{
+    float:left;
+}
+
+.forum .view_ctrl #button_Delete{
+            border:1px solid #f0f0f0;
+            margin-left:5px;
+            margin-top:5px;
+            width:55px;
+            height:30px;
+            text-align:left;
+            padding-left:10px;
+            font-size:12px;            
+            font-family:"맑은 고딕", "나눔 고딕", "돋움체", "돋움", dotum, "Arial Black", sans-serif;
+            color:#737373;
+            background: #fff;
+            cursor:pointer;cursor:hand;
+}
+
+#form_Login{
+    overflow:hidden;
+    margin:0 auto;
+    position:relative;
+    top:200px;
+    width:300px;
+    font-size:12px;
+}
+
+#form_Login .top{
+    float:left;
+}
+
+#form_Login .top #label_Id,
+#form_Login .top #label_Pw{
+    margin-top:13px;
+    width:30px;
+}
+
+#form_Login .top #label_Id,
+#form_Login .top #textBox_Id{
+    float:left;
+}
+
+#form_Login .top #textBox_Id,
+#form_Login .top #textBox_Pw{
+    margin-top:2px;
+    height:26px;
+    margin-bottom:5px;
+}
+
+#form_Login .top #label_Pw{
+    clear:both;
+    float:left;
+}
+
+#textBox_Pw{
+    float:left;
+}
+
+#form_Login #button_OK{
+    float:left;
+    margin-left:5px;
+    height:74px;
+    width:74px;
+    color:#fff;
+    font-weight:bold;
+    
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        
+        border-radius: 5px 5px 5px 5px;
+        behavior: url(css/PIE.htc);
+    
+    border:1px solid #ca321d;
+            background: #ea624a; /* Old browsers */
+            background: -moz-linear-gradient(top, #ea624a 0%, #e05038 49%, #d03820 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea624a), color-stop(49%,#e05038), color-stop(100%,#d03820)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #ea624a 0%,#e05038 49%,#d03820 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #ea624a 0%,#e05038 49%,#d03820 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #ea624a 0%,#e05038 49%,#d03820 100%); /* IE10+ */
+            background: linear-gradient(top bottom, #ea624a 0%,#e05038 49%,#d03820 100%); /* W3C */
+            -pie-background: linear-gradient(top bottom, #ea624a 0%,#e05038 49%,#d03820 100%); /* W3C */
+            behavior: url(css/PIE.htc);
+}
+/*table.video_contents*/
